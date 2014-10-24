@@ -727,8 +727,8 @@
     "js": "getByindex"
   },
   "const git_index_entry *": {
-    "js": "IndexEntry",
-    "cpp": "GitIndexEntry"
+    "cpp": "GitIndexEntry",
+    "js": "IndexEntry"
   },
   "git_index_get_bypath": {
     "cpp": "GetBypath",
@@ -771,8 +771,8 @@
     "js": "conflictGet"
   },
   "git_index_entry **": {
-    "js": "IndexEntry",
-    "cpp": "GitIndexEntry"
+    "cpp": "GitIndexEntry",
+    "js": "IndexEntry"
   },
   "git_index_conflict_remove": {
     "cpp": "ConflictRemove",
@@ -9239,5 +9239,17 @@
   "const git_cred_acquire_cb *": {
     "cpp": "GitCredAcquireCb",
     "js": "CredAcquireCb"
+  },
+  "git_index_entry": {
+    "cpp": "GitIndexEntry",
+    "js": "IndexEntry"
+  },
+  "git_index_entry *": {
+    "cpp": "GitIndexEntry",
+    "js": "IndexEntry"
+  },
+  "const git_index_entry **": {
+    "cpp": "GitIndexEntry",
+    "js": "IndexEntry"
   }
 }
